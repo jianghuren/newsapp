@@ -1,0 +1,41 @@
+* { margin: 0; padding: 0; }
+
+body, html { width: 100%; height: 100%; }
+
+ul { list-style: none; }
+
+a { text-decoration: none; color: #636363; }
+
+header { height: 10.96rem; position: fixed; width: 100%; background: #f8b62b; overflow: hidden; }
+header .radius { position: absolute; top: 3.88rem; left: -10.5rem; width: 36rem; height: 36rem; border-radius: 50%; background: white; z-index: -4; }
+header .circle { position: absolute; width: 3.76rem; height: 3.76rem; top: 2.32rem; left: 5.6rem; background: white; z-index: -3; border-radius: 50%; text-align: center; line-height: 3.76rem; }
+header .circle img { width: 2.44rem; height: 1.8rem; }
+header .denglu { position: absolute; top: 6.32rem; left: 5.6rem; width: 3.4rem; height: 1rem; border-radius: 0.1rem; background: #F8B62B; z-index: 1; font-size: 0.44rem; text-align: center; line-height: 1rem; }
+header .triangle { position: absolute; top: 5.92rem; left: 7.2rem; width: 0; height: 0; border: 0.2rem solid transparent; border-color: transparent transparent #F8B62B transparent; }
+header .backbottom { position: absolute; top: 8.74rem; left: 0; width: 100%; height: 1.94rem; padding-left: 1rem; box-sizing: border-box; }
+header .backbottom ul { display: flex; justify-content: space-between; }
+header .backbottom ul li { min-width: 1.92rem; height: 1.94rem; font-size: 0.4rem; margin-right: 1rem; text-align: center; }
+header .backbottom ul li img { display: block; width: 1.16rem; height: 1.16rem; margin: 0 auto; }
+
+section { overflow-y: auto; padding-top: 11.28rem; padding-bottom: 4.04rem; box-sizing: border-box; background: #f0f0f0; width: 100%; height: 100%; }
+section ul { background: #f4f4f4; }
+section ul li { display: flex; align-items: center; width: 100%; height: 1.8rem; border-top: 0.02rem solid #DBDBDB; padding-left: 0.48rem; padding-right: 1.2rem; box-sizing: border-box; background: white; }
+section ul li a { display: flex; justify-content: space-between; width: 100%; }
+section ul li a span { font-size: 0.48rem; }
+section ul li a span.right { flex-grow: 10; text-align: right; }
+section ul li a span.text { flex-grow: 10; }
+section ul li a span.imgs { flex-grow: 2; }
+section ul li img { width: 0.8rem; height: 0.8rem; vertical-align: middle; }
+section ul li:nth-of-type(5) { background: #F0F0F0; }
+section ul li:nth-of-type(6) { border-bottom: 0.02rem solid #DBDBDB; }
+
+footer { height: 1.96rem; width: 100%; position: fixed; bottom: 0; padding: 0 1.36rem; background: white; box-sizing: border-box; }
+footer .bottom-nav { display: flex; align-items: center; justify-content: space-between; }
+footer .bottom-nav a { font-size: 0.34rem; display: inline-block; min-width: 1.12rem; text-align: center; }
+footer .bottom-nav a.currentPage { color: #f39800; }
+footer .bottom-nav a .index { width: 1.12rem; height: 1.12rem; display: block; background: url(../img/SVG/indexCurrent.svg); }
+footer .bottom-nav a .video { width: 1.12rem; height: 1.12rem; display: block; background: url(../img/SVG/video.svg); }
+footer .bottom-nav a .dingyue { width: 1.12rem; height: 1.12rem; display: block; background: url(../img/SVG/news.svg); }
+footer .bottom-nav a .personal { width: 1.12rem; height: 1.12rem; display: block; background: url(../img/SVG/personal.svg); }
+
+/*# sourceMappingURL=gouzaidui.css.map */
