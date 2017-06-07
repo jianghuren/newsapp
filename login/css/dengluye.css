@@ -1,0 +1,30 @@
+* { margin: 0; padding: 0; }
+
+ul { list-style: none; }
+
+body, html { width: 100%; height: 100%; box-sizing: border-box; background: #f4f4f4; }
+
+header { width: 100%; height: 2.93333rem; background: #FFFFFF; padding-top: 0.6rem; padding-left: 0.8rem; padding-right: 0.8rem; box-sizing: border-box; }
+header span:nth-of-type(1) { margin-right: 1.2rem; }
+header span:nth-of-type(3) { float: right; }
+header span:nth-of-type(3):hover { color: #f8b62b; }
+
+section { width: 100%; height: 22.6rem; background: #f4f4f4; position: relative; }
+section .radius { position: absolute; top: 3.8rem; left: 7.6rem; width: 10rem; height: 10rem; border-radius: 50%; background: #f8b62b; }
+section .radius img { width: 10rem; }
+section ul { position: absolute; bottom: 0; width: 100%; height: 6.66667rem; background: #FFFFFF; box-sizing: border-box; }
+section ul li { display: inline-block; width: 100%; height: 3.33333rem; box-sizing: border-box; border-bottom: 0.03333rem solid #dbdbdb; line-height: 3.33333rem; padding-left: 1.03333rem; color: #bbbbbb; }
+section ul li img { vertical-align: middle; width: 1.73333rem; height: 1.86667rem; margin-right: 1.06667rem; }
+
+footer { position: relative; width: 100%; height: 17.6rem; box-sizing: border-box; background: #f4f4f4; padding-top: 1rem; padding-left: 0.8rem; padding-right: 0.8rem; }
+footer #bubble { width: 100%; height: 2.5rem; border: 1px solid #DBDBDB; text-align: center; line-height: 2.5rem; color: black; border-radius: 0.33333rem; background: white; }
+footer #key { width: 100%; height: 0.8rem; margin-top: 1.6rem; }
+footer #key span { float: right; font-size: 0.8rem; font-family: "PingFang"; color: #f8b62b; }
+footer div:nth-of-type(2) { position: absolute; bottom: 0; left: 0; width: 7.6rem; height: 8.3rem; border-top: 0.03333rem solid #e5e5e5; }
+footer div:nth-of-type(3) { position: absolute; bottom: 0; left: 7.6rem; width: 9.86667rem; height: 8.8rem; }
+footer div:nth-of-type(3) p { width: 100%; height: 1rem; text-align: center; color: #acacac; }
+footer div:nth-of-type(3) #pics { display: flex; justify-content: space-between; width: 100%; height: 2.03333rem; margin-top: 1.06667rem; }
+footer div:nth-of-type(3) #pics img { width: 2.03333rem; }
+footer div:nth-of-type(4) { position: absolute; bottom: 0; right: 0; width: 7.6rem; height: 8.3rem; border-top: 0.03333rem solid #e5e5e5; }
+
+/*# sourceMappingURL=dengluye.css.map */
